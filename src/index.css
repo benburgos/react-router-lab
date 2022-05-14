@@ -34,7 +34,7 @@ code {
   margin-top: 5px;
   margin-left: 20px;
   font-style: italic;
-  font-size: .75em;
+  font-size: 0.75em;
 }
 
 .loader {
@@ -51,11 +51,31 @@ code {
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 table {
   margin-left: auto;
   margin-right: auto;
+  text-align: left;
+  table-layout: auto;
+  width: 50%;
+}
+
+th, td {
+  font-size: small;
+  border-bottom: 1px solid black;
+}
+
+.change-red {
+  color: red;
+}
+
+.change-green {
+  color: green;
 }
