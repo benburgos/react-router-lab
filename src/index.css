@@ -31,6 +31,8 @@ code {
 }
 
 .nav-link {
+  margin-top: 5px;
   margin-left: 20px;
   font-style: italic;
+  font-size: .75em;
 }
