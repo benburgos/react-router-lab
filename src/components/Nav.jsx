@@ -4,10 +4,13 @@ export default function Nav() {
   return (
     <div className="navbar">
       <Link to={'/'}>
-        <div>HOME</div>
+        <div>stockRouter</div>
+      </Link>
+      <Link to={'/stocks'}>
+        <div className='nav-link'>Dashboard</div>
       </Link>
       <Link to={'/about'}>
-        <div>ABOUT</div>
+        <div className='nav-link'>About</div>
       </Link>
     </div>
   );
