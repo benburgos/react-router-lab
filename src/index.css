@@ -83,3 +83,23 @@ td a {
 .green {
   color: green;
 }
+
+.card {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 70%;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  font-family: arial;
+}
+
+.card-header, .card-highlight, .card-history {
+  margin: auto
+}
+
+.card h2, h3 {
+  text-decoration: underline;
+}
