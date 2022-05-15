@@ -72,10 +72,14 @@ th, td {
   border-bottom: 1px solid black;
 }
 
-.change-red {
+td a {
+  text-decoration: none;
+}
+
+.red {
   color: red;
 }
 
-.change-green {
+.green {
   color: green;
 }
