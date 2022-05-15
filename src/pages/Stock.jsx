@@ -1,3 +1,7 @@
+import { useParams } from "react-router-dom"
+
 export default function Stock() {
-    return <h1>You're at the Stock page!</h1>
+    return (
+        <h2></h2>
+    )
 }

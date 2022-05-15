@@ -11,7 +11,8 @@ export default function Dashboard() {
           <th>Price</th>
           <th>Change</th>
         </tr>
-        {stocks.map(({ name, symbol, lastPrice, change, open }, index) => {
+        {stocks.map((stock, index) => {
+          const { name, symbol, lastPrice, change, open } = stock;
           return (
             <tr key={index}>
               <td>
